@@ -1,0 +1,228 @@
+// White (default) outline button (equivalent to inverse)
+.ds-c-button,
+.ds-c-button:visited {
+  border-color: $color-gray-dark;
+  color: $color-gray-dark;
+
+  font-weight: 400;
+  border-radius: 4px;
+
+  &:hover,
+  &.ds-c-button--hover {
+    border-color: $color-gray-dark;
+    color: $color-gray-dark;
+    background-color: $color-gray-lightest;
+  }
+
+  &:active,
+  &.ds-c-button--active {
+    border-color: $color-gray-dark;
+    color: $color-gray-dark;
+  }
+
+  &:disabled,
+  &.ds-c-button--disabled {
+    background-color: $color-gray-lighter;
+    border-color: transparent;
+    color: $color-gray-dark;
+  }
+
+  &:focus,
+  &.ds-c-button--focus {
+    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
+      0 0 0 2px $focus-choice-color;
+    // hide chrome blue outline
+    outline: none;
+  }
+
+  &.ds-c-button--transparent {
+    // TODO: Fix transparent button styles after core CMSDS improves their buttons styles
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  svg {
+    &:not(:first-child) {
+      margin-left: $spacer-1;
+    }
+
+    .apply-fill {
+      fill: currentColor;
+    }
+
+    &.ds-u-color--gray-dark {
+      .apply-fill {
+        fill: $color-base;
+      }
+    }
+  }
+}
+
+// Teal (primary) solid button
+.ds-c-button--primary,
+.ds-c-button--primary:visited {
+  color: $color-white;
+  border-color: transparent;
+
+  &:hover,
+  &.ds-c-button--hover {
+    color: $color-white;
+    background-color: $button-primary-bg--hover;
+    border-color: $button-primary-bg--hover;
+  }
+
+  &:active,
+  &.ds-c-button--active {
+    color: $color-white;
+    background-color: $button-primary-bg--active;
+    border-color: $button-primary-bg--active;
+  }
+
+  &:focus,
+  &.ds-c-button--focus {
+    border-color: $focus-choice-color;
+  }
+
+  // Teal (primary) transparent button
+  &.ds-c-button--transparent {
+    // TODO: Fix transparent button styles after core CMSDS improves their buttons styles
+    color: $color-primary;
+    // without !important, links that extend transparent and primary get the
+    // normal primary button dark teal background on hover
+    background-color: transparent !important;
+    border-color: transparent;
+
+    &:hover,
+    &.ds-c-button--hover {
+      color: $color-primary-dark;
+    }
+  }
+}
+
+// Teal (primary) outline button
+.ds-c-button--primary-outline,
+.ds-c-button--primary-outline:visited {
+  border-color: $color-primary;
+  color: $color-primary;
+
+  &:hover,
+  &.ds-c-button--hover {
+    background-color: $color-gray-lightest;
+    border-color: $color-primary-dark;
+    color: $color-base;
+  }
+
+  &:active,
+  &.ds-c-button--active {
+    background-color: $color-primary-lightest;
+  }
+}
+
+// Blue (primary-alt) solid button
+.ds-c-button--primary-alt,
+.ds-c-button--primary-alt:visited {
+  @extend .ds-c-button--primary;
+  color: $color-white;
+  border-color: transparent;
+  background-color: $color-primary-alt;
+
+  &:hover,
+  &.ds-c-button--hover {
+    color: $color-white;
+    background-color: $color-primary-alt-dark;
+    border-color: $color-primary-alt-dark;
+  }
+
+  &:active,
+  &.ds-c-button--active {
+    color: $color-white;
+    background-color: $color-primary-alt-light;
+    border-color: $color-primary-alt-light;
+  }
+
+  &:focus,
+  &.ds-c-button--focus {
+    border-color: $focus-choice-color;
+  }
+
+  // Blue (primary-alt) transparent button
+  &.ds-c-button--transparent {
+    // TODO: Fix transparent button styles after core CMSDS improves their buttons styles
+    color: $color-primary-alt-light;
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover,
+    &.ds-c-button--hover {
+      // without !important, links that extend transparent and primary-alt
+      // get color:white on hover
+      color: $color-primary-alt !important;
+    }
+  }
+}
+
+// Blue (primary-alt) outline button
+.ds-c-button--primary-alt-outline,
+.ds-c-button--primary-alt-outline:visited {
+  border-color: $color-primary-alt;
+  color: $color-primary-alt;
+
+  &:hover,
+  &.ds-c-button--hover {
+    background-color: $color-gray-lightest;
+    border-color: $color-primary-alt-dark;
+    color: $color-base;
+  }
+
+  &:active,
+  &.ds-c-button--active {
+    background-color: $color-primary-alt-lightest;
+  }
+}
+
+.ds-c-button-icon--small {
+  & > svg {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+// White (default) outline button (equivalent to inverse)
+.ds-c-button--inverse,
+.ds-c-button--inverse:visited {
+  background-color: white;
+  border-color: $color-gray-dark;
+  color: $color-gray-dark;
+
+  &:hover,
+  &.ds-c-button--hover {
+    background-color: $color-gray-lightest;
+  }
+
+  &:hover,
+  &.ds-c-button--hover,
+  &:active,
+  &.ds-c-button--active,
+  &:focus,
+  &.ds-c-button--focus {
+    border-color: $color-gray-dark;
+    color: $color-gray-dark;
+  }
+
+  &.ds-c-button--transparent {
+    color: $color-white;
+    // TODO: Fix transparent button styles after core CMSDS improves their buttons styles
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover,
+    &.ds-c-button--hover,
+    &:active,
+    &.ds-c-button--active,
+    &:focus,
+    &.ds-c-button--focus {
+      border-color: transparent;
+      color: hsla(0, 0%, 100%, 0.77);
+    }
+  }
+}

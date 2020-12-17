@@ -1,0 +1,115 @@
+// Specific style overrides that are not easily affected via variables alone.
+.ds-display,
+.ds-title,
+.ds-h1,
+.ds-h2,
+.ds-h3,
+.ds-h4,
+.ds-h5,
+.ds-h6 {
+  font-weight: $font-semibold;
+  font-family: "Montserrat";
+}
+
+.ds-h1 {
+  font-size: $h1-font-size-mobile;
+  line-height: 32px;
+
+  @media screen and (min-width: $width-md) {
+    line-height: 47px;
+    font-size: $h1-font-size;
+  }
+}
+
+.ds-h2 {
+  margin-top: 36px;
+  margin-bottom: 12px;
+  @media screen and (max-width: $width-md) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.ds-h3 {
+  margin-top: 31.5px;
+  margin-bottom: 10.5px;
+  @media screen and (max-width: $width-md) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.ds-h4 {
+  margin-top: 27px;
+  margin-bottom: 9px;
+  @media screen and (max-width: $width-md) {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+.ds-h5 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  @media screen and (max-width: $width-md) {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+.ds-h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 21px;
+  margin-bottom: 7px;
+  @media screen and (max-width: $width-md) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.ds-title {
+  font-weight: 300;
+}
+
+.ds-text--lead {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.mct-p1,
+.mct-p2,
+.mct-p3 {
+  font-family: Rubik;
+  font-weight: 400;
+  color: $black-500;
+}
+
+.mct-p1 {
+  font-size: $mct-p1-font-size;
+  line-height: 27px;
+  @media screen and (max-width: $width-md) {
+    font-size: $mct-p1-mobile-font-size !important;
+    line-height: 27px;
+  }
+}
+
+.mct-p2 {
+  font-size: $mct-p2-font-size;
+  line-height: 24px;
+  @media screen and (max-width: $width-md) {
+    font-size: $mct-p2-mobile-font-size !important;
+    line-height: 25px;
+  }
+}
+
+.mct-p3 {
+  font-size: $mct-p3-font-size;
+  line-height: 18px;
+  @media screen and (max-width: $width-md) {
+    font-size: $mct-p3-mobile-font-size !important;
+    line-height: 23px;
+  }
+}

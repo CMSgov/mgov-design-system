@@ -1,0 +1,27 @@
+.mct-c-help-drawer {
+  .ds-c-help-drawer {
+    &__header > div {
+      @extend .ds-u-fill--white;
+
+      h3 {
+        @extend .ds-u-font-weight--bold;
+        @extend .ds-u-text-align--left;
+        font-size: 30px;
+        font-family: $montserrat-font;
+      }
+
+      button {
+        @extend .ds-u-border--0;
+        @extend .ds-u-color--black;
+
+        svg {
+          width: 26px;
+          height: 26px;
+        }
+      }
+    }
+    &__footer {
+      @extend .ds-u-display--none;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Flex Direction Utility Classes
+
+$_flex-direction-values: (
+  row: row,
+  rowReverse: row-reverse,
+  column: column,
+  columnReverse: column-reverse,
+);
+
+@each $name in map-keys($_flex-direction-values) {
+  $value: map-get($_flex-direction-values, $name);
+  // Example: .m-u-flex-direction--row
+  .m-u-flex-direction--#{$name} {
+    // Example: flex-direction: row
+    flex-direction: $value !important;
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  $viewport: map-get($breakpoints, $breakpoint);
+
+  @media (min-width: $viewport) {
+    @each $name in map-keys($_flex-direction-values) {
+      $value: map-get($_flex-direction-values, $name);
+      // Example: .m-u-lg-flex-direction--row
+      .m-u-#{$breakpoint}-flex-direction--#{$name} {
+        // Example: flex-direction: row
+        flex-direction: $value !important;
+      }
+    }
+  }
+}
