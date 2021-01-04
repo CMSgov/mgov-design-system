@@ -57,7 +57,7 @@ As a child design system, the Medicare.gov Design System shares the same tooling
 
 ## Design assets
 
-You can find the Medicare design system Sketch file and related fonts in the [design-assets folder](https://github.cms.gov/MedicareGov/mgov-design-system/tree/master/design-assets).
+You can find the Medicare design system Sketch file and related fonts in the [design-assets folder](https://github.com/CMSgov/mgov-design-system/tree/master/design-assets).
 
 You can also view the [Medicare InVision Design System Manager design assets](https://cms.invisionapp.com/dsm/cms/medicare?mode=edit). 
 
