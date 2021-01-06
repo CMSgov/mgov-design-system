@@ -31,7 +31,7 @@ TAG="v$PACKAGE_VERSION"
 
 # Push up release branch containing the updated package versions
 git push --set-upstream origin $BRANCH
-git tag -a $TAG -m "Release $TAG" -s
+git tag $TAG
 git push origin $TAG
 
 echo "${GREEN}Prepublish complete. Make sure to merge the release branch $BRANCH into master...${NC}"
