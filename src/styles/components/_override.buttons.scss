@@ -135,7 +135,7 @@
 
     &:active,
     &.ds-c-button--active {
-      border-color: $color-gray-dark;
+      border-color: rgba($color-gray-dark, 0.6);
       color: rgba($color-gray-dark, 0.6);
     }
 
