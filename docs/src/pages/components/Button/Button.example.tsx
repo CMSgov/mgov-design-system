@@ -35,7 +35,7 @@ const ButtonExample: FunctionComponent = () => {
           <Button className="ds-c-button--transparent ds-c-button--inverse">Transparent</Button>
         </span>
         <span className="ds-u-margin-right--1">
-          <Button size="big" className="ds-c-button--inverse">Landing Page</Button>
+          <Button size="big" className="ds-c-button--primary ds-c-button--inverse">Landing Page</Button>
         </span>
       </div>
     </div>
