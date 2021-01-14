@@ -183,7 +183,7 @@ export default class GlobalHeader extends PureComponent<
                   } else {
                     el = (
                       <Button
-                        className="m-c-globalHeader__actionButton ds-c-button--transparent ds-c-button--primary"
+                        className="m-c-globalHeader__actionButton ds-c-button--transparent"
                         onClick={action.callback}
                         {...action.props}
                       >
