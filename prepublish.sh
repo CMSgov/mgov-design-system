@@ -25,10 +25,7 @@ BRANCH="release-$PACKAGE_VERSION"
 git checkout -b $BRANCH
 
 echo "${GREEN}Pushing tag and release commit to Github...${NC}"
-TAG="v$PACKAGE_VERSION"
-
-# Push up release branch containing the updated package versions
-git push --set-upstream origin $BRANCH
-git push origin $TAG
+# Push up release branch and tag containing the updated package versions
+git push --set-upstream origin $BRANCH --follow-tags
 
 echo "${GREEN}Prepublish complete. Make sure to merge the release branch $BRANCH into master...${NC}"
