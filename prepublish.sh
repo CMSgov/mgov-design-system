@@ -21,12 +21,13 @@ yarn build
 echo "${GREEN}Bumping version and creating a git tagged release commit...${NC}"
 yarn version
 PACKAGE_VERSION=$(node -pe "require('./package.json').version")
-git commit -m "Bump package version to $PACKAGE_VERSION"
 
-echo "${GREEN}Pushing tag commit to Github...${NC}"
+echo "${GREEN}Pushing tag and release commit to Github...${NC}"
 TAG="v$PACKAGE_VERSION"
 
-# Push up release git tag containing the updated package versions
-git push --set-upstream origin $TAG
+# Push up master branch containing the updated package versions
+git push --set-upstream origin master
+# Push up git tag containing the updated package versions
+git push origin $TAG
 
 echo "${GREEN}Prepublish complete.${NC}"
