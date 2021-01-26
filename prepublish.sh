@@ -18,20 +18,15 @@ echo "${GREEN}Building files and running tests...${NC}"
 yarn test
 yarn build
 
-echo "${GREEN}Bumping version and creating tagged release commit...${NC}"
-yarn bump
+echo "${GREEN}Bumping version and creating a git tagged release commit...${NC}"
+yarn version
 PACKAGE_VERSION=$(node -pe "require('./package.json').version")
-BRANCH="release-$PACKAGE_VERSION"
-git checkout -b $BRANCH
-git add package.json
 git commit -m "Bump package version to $PACKAGE_VERSION"
 
-echo "${GREEN}Pushing tag and release commit to Github...${NC}"
+echo "${GREEN}Pushing tag commit to Github...${NC}"
 TAG="v$PACKAGE_VERSION"
 
-# Push up release branch containing the updated package versions
-git push --set-upstream origin $BRANCH
-git tag $TAG
-git push origin $TAG
+# Push up release git tag containing the updated package versions
+git push --set-upstream origin $TAG
 
-echo "${GREEN}Prepublish complete. Make sure to merge the release branch $BRANCH into master...${NC}"
+echo "${GREEN}Prepublish complete.${NC}"
