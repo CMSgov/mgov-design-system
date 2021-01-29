@@ -114,6 +114,11 @@
     color: $color-white;
   }
 
+  &.ds-c-button--big {
+    font-family: $montserrat-font;
+    font-weight: 600;
+  }
+
   // Primary white solid inverse button
   &.ds-c-button--inverse,
   &.ds-c-button--inverse:visited {
