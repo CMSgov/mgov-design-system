@@ -106,12 +106,26 @@
     color: $color-white;
     background-color: $button-primary-bg--active;
     border-color: $button-primary-bg--active;
+    &:focus,
+    &.ds-c-button--focus {
+      color: $color-white;
+      background-color: $button-primary-bg--active;
+    }
   }
 
   &:focus,
   &.ds-c-button--focus {
+    background-color: $button-primary-bg;
     border-color: $focus-choice-color;
     color: $color-white;
+    &:hover,
+    &.ds-c-button--hover {
+      background-color: $button-primary-bg--hover;
+    }
+    &:active,
+    &.ds-c-button--active {
+      background-color: $button-primary-bg--active;
+    }
   }
 
   &.ds-c-button--big {
@@ -128,12 +142,14 @@
 
     &:hover,
     &.ds-c-button--hover {
+      background-color: $color-white;
       border-color: rgba($color-gray-dark, 0.8);
       color: rgba($color-gray-dark, 0.8);
     }
 
     &:focus,
     &.ds-c-button--focus {
+      background-color: $color-white;
       border-color: rgba($color-gray-dark, 0.8);
       color: rgba($color-gray-dark, 0.8);
     }
@@ -155,7 +171,6 @@
       background-color: transparent;
       border-color: transparent;
       color: $color-white;
-
     }
   }
 }
@@ -185,5 +200,14 @@
   &:focus,
   &.ds-c-button--focus {
     border-color: $focus-choice-color;
+    background-color: $color-primary-alt;
+    &:hover,
+    &.ds-c-button--hover {
+      background-color: $color-primary-alt-dark;
+    }
+    &:active,
+    &.ds-c-button--active {
+      background-color: $color-primary-alt-light;
+    }
   }
 }
