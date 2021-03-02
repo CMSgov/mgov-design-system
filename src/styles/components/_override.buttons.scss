@@ -50,6 +50,7 @@
   // default (tertiarty) outline inverse button
   &.ds-c-button--inverse,
   &.ds-c-button--inverse:visited {
+    background-color: transparent;
     border-color: $color-white;
     color: $color-white;
     background-color: transparent;
