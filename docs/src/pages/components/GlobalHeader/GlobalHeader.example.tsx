@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GlobalHeader from "@src/components/GlobalHeader";
+import { GlobalHeader } from "@design-system";
 
 ReactDOM.render(
   <div style={{ height: "200px" }}>
