@@ -185,17 +185,20 @@ const Stars: FunctionComponent<StarsProps> = ({
   const emptyStars = totalStars - completeStars - (halfStar ? 1 : 0);
 
   const starIcons = [];
-
+  let starIndex = 0;
   for (let i = 0; i < completeStars; i++) {
-    starIcons.push(<FilledStar />);
+    starIcons.push(<FilledStar key={starIndex} />);
+    starIndex++;
   }
 
   if (halfStar) {
-    starIcons.push(<HalfStar />);
+    starIcons.push(<HalfStar key={starIndex} />);
+    starIndex++;
   }
 
   for (let i = 0; i < emptyStars; i++) {
-    starIcons.push(<EmptyStar />);
+    starIcons.push(<EmptyStar key={starIndex} />);
+    starIndex++;
   }
 
   return (
