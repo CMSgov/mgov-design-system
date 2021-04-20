@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Navbar from "@src/components/Navbar";
-import MedicaregovLogo from "@src/components/MedicaregovLogo";
+import { Navbar, MedicaregovLogo } from "@design-system";
 
 ReactDOM.render(
   <Navbar inverse>

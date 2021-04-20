@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CloseSymbol from "@src/components/CloseSymbol";
+import { Close } from "@design-system";
 
-ReactDOM.render(<CloseSymbol />, document.getElementById("js-example"));
+ReactDOM.render(<Close/>, document.getElementById("js-example"));

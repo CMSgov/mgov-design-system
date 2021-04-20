@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Stars from "@src/components/Stars";
+import { Stars } from "@design-system";
 
 ReactDOM.render(
   <div>

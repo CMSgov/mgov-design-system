@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import NavigationMenu from "@src/components/NavigationMenu";
+import { NavigationMenu } from "@design-system";
 
 ReactDOM.render(
   <NavigationMenu alwaysShowMenuButton={true}>

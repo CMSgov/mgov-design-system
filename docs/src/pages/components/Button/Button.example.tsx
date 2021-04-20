@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import ReactDOM from "react-dom";
-import { Button } from "@cmsgov/design-system";
+import { Button } from "@design-system";
 
 const ButtonExample: FunctionComponent = () => {
   return (
