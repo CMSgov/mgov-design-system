@@ -47,7 +47,7 @@
     }
   }
 
-  // default (tertiarty) outline inverse button
+  // default (tertiary) outline inverse button
   &.ds-c-button--inverse,
   &.ds-c-button--inverse:visited {
     border-color: $color-white;
@@ -85,6 +85,15 @@
       &.ds-c-button--disabled {
         color: $color-gray-dark;
       }
+    }
+  }
+
+  // Change buttons to full-width on mobile devices
+  &.mds-u-full-width-mobile {
+    @media screen and (max-width: $width-sm) {
+    // @extend .ds-u-padding-x--0;
+    // @extend .ds-u-sm-padding-x--3;
+      width: 100%;
     }
   }
 }
@@ -211,4 +220,11 @@
 .ds-c-button--big {
   font-family: $montserrat-font;
   font-weight: 600;
+}
+
+// Hides elements like buttons when printing
+@media print {
+  .mds-hide-print {
+    display: none !important;
+  }
 }
