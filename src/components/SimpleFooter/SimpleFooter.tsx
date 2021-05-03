@@ -67,7 +67,7 @@ const SimpleFooter: FunctionComponent<SimpleFooterProps> = ({
               if (
                 utag &&
                 utag.gdpr &&
-                utag.gdpr.showConsentPreferences("'" + language + "'") &&
+                utag.gdpr.showConsentPreferences(language) &&
                 // eslint-disable-next-line
                 typeof (window as any).utag.gdpr.showConsentPreferences ===
                   "function"

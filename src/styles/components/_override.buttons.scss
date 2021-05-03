@@ -89,10 +89,8 @@
   }
 
   // Change buttons to full-width on mobile devices
-  &.mds-u-full-width-mobile {
+  &.mds-c-button--mobile-full-width {
     @media screen and (max-width: $width-sm) {
-    // @extend .ds-u-padding-x--0;
-    // @extend .ds-u-sm-padding-x--3;
       width: 100%;
     }
   }
@@ -220,11 +218,4 @@
 .ds-c-button--big {
   font-family: $montserrat-font;
   font-weight: 600;
-}
-
-// Hides elements like buttons when printing
-@media print {
-  .mds-hide-print {
-    display: none !important;
-  }
 }
