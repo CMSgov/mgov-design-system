@@ -47,7 +47,7 @@
     }
   }
 
-  // default (tertiarty) outline inverse button
+  // default (tertiary) outline inverse button
   &.ds-c-button--inverse,
   &.ds-c-button--inverse:visited {
     border-color: $color-white;
@@ -85,6 +85,13 @@
       &.ds-c-button--disabled {
         color: $color-gray-dark;
       }
+    }
+  }
+
+  // Change buttons to full-width on mobile devices
+  &.mds-c-button--mobile-full-width {
+    @media screen and (max-width: $width-sm) {
+      width: 100%;
     }
   }
 }

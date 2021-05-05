@@ -14,6 +14,8 @@ interface SimpleFooterProps {
   plainWritingLabel?: string;
   websiteInfo?: string;
   onClickLinkAnalytics?: (url: string) => void;
+  /** Adds a proptype for changing language for the 'Privacy Setting' modal. See tealium documentation about 'Consent Preferences Manager', for more info. */
+  language?: string;
 }
 
 const SimpleFooter: FunctionComponent<SimpleFooterProps> = ({
@@ -25,6 +27,7 @@ const SimpleFooter: FunctionComponent<SimpleFooterProps> = ({
   linkingPolicyLabel = "Linking Policy",
   usingThisSiteLabel = "Using this site",
   plainWritingLabel = "Plain Writing",
+  language = "en",
   websiteInfo = "A federal government website managed and paid for by the U.S. Centers for Medicare and Medicaid Services.",
   onClickLinkAnalytics,
 }) => {
@@ -64,7 +67,7 @@ const SimpleFooter: FunctionComponent<SimpleFooterProps> = ({
               if (
                 utag &&
                 utag.gdpr &&
-                utag.gdpr.showConsentPreferences &&
+                utag.gdpr.showConsentPreferences(language) &&
                 // eslint-disable-next-line
                 typeof (window as any).utag.gdpr.showConsentPreferences ===
                   "function"
