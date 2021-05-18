@@ -63,7 +63,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@cmsgov/design-system": "file:../design-system/packages/design-system",
+    "@cmsgov/design-system": "2.5.0",
     "core-js": "^3.6.4",
     "lodash.uniqueid": "^4.0.1"
   }
