@@ -26,12 +26,12 @@
     outline: 0 none;
   }
 
-  &:focus {
-    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-      0 0 0 2px $focus-choice-color;
-    border-color: $focus-choice-color;
-    outline: none;
-  }
+  // &:focus {
+  //   box-shadow: 0 0 0 4px $focus-choice-color-highlight,
+  //     0 0 0 2px $focus-choice-color;
+  //   border-color: $focus-choice-color;
+  //   outline: none;
+  // }
 
   &.mct-link--inverse {
     @extend %link-inverse;
