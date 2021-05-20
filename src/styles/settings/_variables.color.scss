@@ -13,11 +13,15 @@ $color-primary-darkest: darken($color-primary, 20%);
 $color-primary-light: $teal-300;
 $color-primary-lightest: $teal-100;
 
-// Focus
-$focus-choice-color: #f1ad15;
-$focus-choice-color-highlight: rgba(241, 173, 21, 0.4);
-$focus-text-field-color: $color-primary;
-$focus-text-field-color-highlight: rgba(64, 158, 144, 0.4);
+// // Focus
+// $focus-choice-color: #f1ad15;
+// $focus-choice-color-highlight: rgba(241, 173, 21, 0.4);
+// $focus-text-field-color: $color-primary;
+// $focus-text-field-color-highlight: rgba(64, 158, 144, 0.4);
+
+// Focus colors
+$color-focus-light: #fff;
+$color-focus-dark: #146a5d;
 
 // Blue/Primary Alt
 $blue-700: #12284d;
