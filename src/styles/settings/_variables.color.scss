@@ -33,9 +33,9 @@ $color-primary-alt-light: $blue-300;
 $color-primary-alt-lightest: $blue-100;
 
 $color-secondary: $blue-500;
-$color-secondary-dark: darken($color-secondary, 60%);
-$color-secondary-darker: $color-secondary-dark;
-$color-secondary-darkest: $color-secondary-dark;
+$color-secondary-dark: $blue-700;
+$color-secondary-darker: darken($color-secondary, 10%);
+$color-secondary-darkest: darken($color-secondary, 20%);
 $color-secondary-light: $blue-300;
 $color-secondary-lightest: $blue-100;
 
