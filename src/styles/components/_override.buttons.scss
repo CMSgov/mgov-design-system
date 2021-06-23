@@ -3,27 +3,6 @@
 .ds-c-button:visited {
   font-weight: $font-normal;
 
-  // &:hover,
-  // &.ds-c-button--hover {
-  //   border-color: $color-primary-alt-dark;
-  //   color: $color-primary-alt-dark;
-  // }
-
-  // &:active,
-  // &.ds-c-button--active {
-  //   border-color: $color-primary-alt-darkest;
-  //   color: $color-primary-alt-darkest;
-  // }
-
-  // &:focus,
-  // &.ds-c-button--focus {
-  //   box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-  //     0 0 0 2px $focus-choice-color;
-  //   color: $color-primary-alt-dark;
-  //   // hide chrome blue outline
-  //   outline: none;
-  // }
-
   &.ds-c-button--transparent {
     border-color: transparent;
   }
@@ -96,40 +75,6 @@
 // Primary teal solid button
 .ds-c-button--primary,
 .ds-c-button--primary:visited {
-  // color: $color-white;
-  // border-color: transparent;
-
-  // &:hover,
-  // &.ds-c-button--hover {
-  //   color: $color-white;
-  //   background-color: $button-primary-bg--hover;
-  //   border-color: $button-primary-bg--hover;
-  // }
-
-  // &:active,
-  // &.ds-c-button--active {
-  //   color: $color-white;
-  //   background-color: $button-primary-bg--active;
-  //   border-color: $button-primary-bg--active;
-  // }
-
-  // &:focus,
-  // &.ds-c-button--focus {
-  //   background-color: $button-primary-bg;
-  //   border-color: $focus-choice-color;
-  //   color: $color-white;
-
-  //   // Ensure active and hover styles can be used with focus
-  //   &:hover,
-  //   &.ds-c-button--hover {
-  //     background-color: $button-primary-bg--hover;
-  //   }
-  //   &:active,
-  //   &.ds-c-button--active {
-  //     background-color: $button-primary-bg--active;
-  //   }
-  // }
-
   // Primary white solid inverse button
   &.ds-c-button--inverse,
   &.ds-c-button--inverse:visited {
@@ -196,7 +141,6 @@
 
   &:focus,
   &.ds-c-button--focus {
-    border-color: $focus-choice-color;
     background-color: $color-primary-alt;
 
     // Ensure active and hover styles can be used with focus
