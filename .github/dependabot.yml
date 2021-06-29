@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # Keep package.json (& lockfiles) up to date as soon as
+  # new versions are published to the npm registry - checks daily
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    default_labels:
+      - "Dependabot"
+      - "Design System Update"
+    allow:
+      - dependency-name: "@cmsgov/design-system"
+      - dependency-name: "@cmsgov/design-system-docs"
+      - dependency-name: "@cmsgov/design-system-scripts"
+      # - More matches can be added here as time goes on for 
+      # security volunerability checks, etc
