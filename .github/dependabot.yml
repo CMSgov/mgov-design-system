@@ -6,7 +6,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-    default_labels:
+    labels:
       - "Dependabot"
       - "Design System Update"
     allow:
