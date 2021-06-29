@@ -14,4 +14,3 @@ updates:
       - dependency-name: "@cmsgov/design-system-docs"
       - dependency-name: "@cmsgov/design-system-scripts"
       # - More matches can be added here as time goes on for 
-      # security volunerability checks, etc
