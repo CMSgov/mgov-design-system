@@ -6,7 +6,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-    default_labels:
+    labels:
       - "Dependabot"
       - "Design System Update"
     allow:
@@ -14,4 +14,3 @@ updates:
       - dependency-name: "@cmsgov/design-system-docs"
       - dependency-name: "@cmsgov/design-system-scripts"
       # - More matches can be added here as time goes on for 
-      # security volunerability checks, etc
