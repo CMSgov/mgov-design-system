@@ -7,7 +7,7 @@ updates:
     schedule:
       interval: 'daily'
     labels:
-      - "Dependabot"
+      - "Dependencies"
       - "Design System Update"
     allow:
       - dependency-name: "@cmsgov/design-system"
