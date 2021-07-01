@@ -1345,12 +1345,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cmsgov/design-system-docs@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-docs/-/design-system-docs-2.7.0.tgz#b9e0eb253386d0cbc4bf9e755cd9ca4c6db9a0f0"
-  integrity sha512-UGqVZ+BbEVw2q0Cvm362abNBOSGjQgMmPHfseGDxb2qT14SuTFOJNtgH9NDKIOwIV4LwN+7p85Ld3xJYRWzYuQ==
+"@cmsgov/design-system-docs@2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-docs/-/design-system-docs-2.7.1.tgz#f49284e4b494211328fa6a1d86b7a313c22535db"
+  integrity sha512-Smxw8/wTf9y+i5y1JXUe1FWexUCvMmJhgjFPTMOnyQz2871lXnkQ/6YEHF1IKQqOm+gv0Rm2B7iv5Qs1GUEzKA==
   dependencies:
-    "@cmsgov/design-system" "^2.7.0"
+    "@cmsgov/design-system" "^2.7.1"
     classnames "^2.2.5"
     lodash "^4.17.19"
     prismjs "^1.11.0"
@@ -1359,10 +1359,10 @@
     react-hot-loader "^3.1.3"
     url-join "^4.0.1"
 
-"@cmsgov/design-system-scripts@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-scripts/-/design-system-scripts-2.7.0.tgz#8841ba3c95e71fbec69b8331866ef54fad5ad41b"
-  integrity sha512-WuCunI9W3doshl4xQUmL4Z7mD7MBA3HgGGSzOCcavP3oU1RyeIkWvcQxkYp284PtH3hL4gFn5w1aps0s4LS4pg==
+"@cmsgov/design-system-scripts@2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-scripts/-/design-system-scripts-2.7.1.tgz#bd93b8d3a3389f46265f46fdde99588ce737140c"
+  integrity sha512-1s8eugvkwNYN2MEt/sjRzTkRE0MWb4wiMmS37WA4Q07N29dp/KWrDS1XQu2ucNHfIR49oFdkAV8s9bnnsJmp6A==
   dependencies:
     "@babel/core" "^7.8.4"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
@@ -1438,10 +1438,10 @@
     webpack-hot-middleware "2.25.0"
     yargs "^11.0.0"
 
-"@cmsgov/design-system@2.7.0", "@cmsgov/design-system@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.0.tgz#54e6c910c32e5e37e4c0867580686a0f43e9023f"
-  integrity sha512-ewGaZ/VtkTsyR6AfmV2GYIe4nn+I/NK03m+/i/fsiNc6RB9Qa9pS87N4P/H0IGnkMlUOg/g6WKi163L++3UsdQ==
+"@cmsgov/design-system@2.7.1", "@cmsgov/design-system@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.1.tgz#3808b5be99733c857fcb0fabc6e160d76f969530"
+  integrity sha512-cQ6E/IDg14uz5QSiAB/kOzHrDRW8rVK+G10M37zBN4EA20TOO4VosTb7J4pW+5R+9PlCKKow7l2zntmbFWM2wQ==
   dependencies:
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.5"
