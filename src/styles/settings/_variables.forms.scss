@@ -12,3 +12,45 @@ $choice-border-radius: 3px;
 // Setting it to 2.3 seems to make it work
 $choice-border-width: 2.3px;
 $choice-size: 24px;
+
+// Primary button
+$button-primary-text-color: $color-white !default;
+$button-primary-text-color--hover: $color-white !default;
+$button-primary-text-color--active: $color-white !default;
+$button-primary-text-color--disabled: $color-gray-dark !default;
+$button-primary-bg: $color-primary !default;
+$button-primary-bg--hover: $color-primary-darker !default;
+$button-primary-bg--active: $color-primary-darkest !default;
+$button-primary-bg--disabled: $color-gray-lighter !default;
+$button-primary-border-color: transparent !default;
+$button-primary-border-color--hover: transparent !default;
+$button-primary-border-color--active: transparent !default;
+$button-primary-border-color--disabled: $color-gray-lighter !default;
+
+// Secondary button
+$button-secondary-text-color: $color-white;
+$button-secondary-text-color--hover: $color-white;
+$button-secondary-text-color--active: $color-white;
+$button-secondary-text-color--disabled: $color-gray-dark;
+$button-secondary-bg: $color-secondary;
+$button-secondary-bg--hover: $color-secondary-darker;
+$button-secondary-bg--active: $color-secondary-light;
+$button-secondary-bg--disabled: $color-gray-lighter;
+$button-secondary-border-color: $color-secondary;
+$button-secondary-border-color--hover: $color-secondary-darker;
+$button-secondary-border-color--active: $color-secondary-light;
+$button-secondary-border-color--disabled: $color-gray-lighter;
+
+// Tertiary button
+$button-tertiary-text-color: $color-secondary;
+$button-tertiary-text-color--hover: $color-secondary-darker;
+$button-tertiary-text-color--active: $color-secondary-darkest;
+$button-tertiary-text-color--disabled: $color-gray-dark;
+$button-tertiary-bg: $color-white;
+$button-tertiary-bg--hover: $color-white;
+$button-tertiary-bg--active: $color-white;
+$button-tertiary-bg--disabled: $color-white;
+$button-tertiary-border-color: $color-secondary;
+$button-tertiary-border-color--hover: $color-secondary-darker;
+$button-tertiary-border-color--active: $color-secondary-darker;
+$button-tertiary-border-color--disabled: $color-gray-lighter;
