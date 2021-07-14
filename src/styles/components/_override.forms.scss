@@ -9,7 +9,7 @@
 
   color: $black-500;
   font-family: $rubik-font;
-  font-size: $h5-font-size;
+  font-size: $font-size-md;
   border-radius: 3px;
   border: 1px solid $black-200;
   padding: $spacer-2;
@@ -28,11 +28,11 @@ select.ds-c-field {
 
 .ds-c-label {
   font-family: $rubik-font;
-  font-size: $h5-font-size;
+  font-size: $font-size-md;
 
   span:first-child {
     font-weight: $font-semibold;
-    font-size: $h6-font-size;
+    font-size: $font-size-sm;
 
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -56,7 +56,7 @@ input[type="checkbox"] + .ds-c-label {
     font-weight: $font-normal;
     text-transform: none;
     font-family: $rubik-font;
-    font-size: $h5-font-size;
+    font-size: $font-size-md;
     letter-spacing: 0;
   }
 }
@@ -74,7 +74,7 @@ legend[id^="datefield_label"] {
 }
 
 .ds-c-field__hint {
-  font-size: $h6-font-size;
+  font-size: $font-size-sm;
   font-family: $rubik-font;
 }
 

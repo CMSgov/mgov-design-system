@@ -53,6 +53,19 @@ These scripts can all be run from the root level of the repo:
 
 As a child design system, the Medicare.gov Design System shares the same tooling and organization as the CMSDS. For more information on how to extend and customize SASS, JS, and documentation, check out the [child design system example and its documentation](https://github.com/CMSgov/design-system/tree/master/examples/child-design-system).
 
+### Updating the CMS Design System in the Medicare Design System
+
+The Medicare Design System depends on updates from the CMSDS. It is good practice to update the MDS when there are new releases to the CMSDS. Monitor the [CMSDS repository](https://github.com/CMSgov/design-system/releases) for the latest release. Follow these steps to update the CMSDS version in the Medicare Design System:
+- Update the following packages in the package.json file to the latest CMSDS version number.
+ - devDependencies
+  - `@cmsgov/design-system-docs`
+  - `@cmsgov/design-system-scripts`
+ - dependencies
+  - `@cmsgov/design-system`
+- Run `Yarn install`
+- Make sure your yarn.lock file is updated.
+- Run `yarn start` to verify there are no breaking changes.
+
 ## Design assets
 
 You can find the Medicare design system Sketch file and related fonts in the [design-assets folder](https://github.com/CMSgov/mgov-design-system/tree/master/design-assets).
