@@ -18,15 +18,6 @@
     color: $color-primary-alt-darkest;
   }
 
-  &:focus,
-  &.ds-c-button--focus {
-    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-      0 0 0 2px $focus-choice-color;
-    color: $color-primary-alt-dark;
-    // hide chrome blue outline
-    outline: none;
-  }
-
   &.ds-c-button--transparent {
     border-color: transparent;
   }
@@ -56,12 +47,6 @@
 
     &:hover,
     &.ds-c-button--hover {
-      border-color: rgba($color-white, 0.8);
-      color: rgba($color-white, 0.8);
-    }
-
-    &:focus,
-    &.ds-c-button--focus {
       border-color: rgba($color-white, 0.8);
       color: rgba($color-white, 0.8);
     }
@@ -118,10 +103,6 @@
 
   &:focus,
   &.ds-c-button--focus {
-    background-color: $button-primary-bg;
-    border-color: $focus-choice-color;
-    color: $color-white;
-
     // Ensure active and hover styles can be used with focus
     &:hover,
     &.ds-c-button--hover {
@@ -142,13 +123,6 @@
 
     &:hover,
     &.ds-c-button--hover {
-      background-color: $color-white;
-      border-color: rgba($color-gray-dark, 0.8);
-      color: rgba($color-gray-dark, 0.8);
-    }
-
-    &:focus,
-    &.ds-c-button--focus {
       background-color: $color-white;
       border-color: rgba($color-gray-dark, 0.8);
       color: rgba($color-gray-dark, 0.8);
@@ -199,9 +173,6 @@
 
   &:focus,
   &.ds-c-button--focus {
-    border-color: $focus-choice-color;
-    background-color: $color-primary-alt;
-
     // Ensure active and hover styles can be used with focus
     &:hover,
     &.ds-c-button--hover {
