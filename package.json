@@ -11,7 +11,6 @@
     "build": "yarn cmsds build-docs --skipLatest",
     "start": "yarn cmsds start --skipLatest",
     "test": "yarn test:unit && yarn test:e2e",
-    "precommit": "lint-staged",
     "test:unit": "yarn cmsds test ./src",
     "test:e2e": "yarn cmsds test:e2e ./src",
     "lint": "yarn cmsds lint ./src ./docs/src",
