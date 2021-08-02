@@ -76,7 +76,7 @@
     "lodash.uniqueid": "^4.0.1"
   },
   "lint-staged": {
-    "*.{js,jsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix"
     ],
