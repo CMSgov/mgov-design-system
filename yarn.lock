@@ -1544,12 +1544,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cmsgov/design-system-docs@2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-docs/-/design-system-docs-2.7.1.tgz#f49284e4b494211328fa6a1d86b7a313c22535db"
-  integrity sha512-Smxw8/wTf9y+i5y1JXUe1FWexUCvMmJhgjFPTMOnyQz2871lXnkQ/6YEHF1IKQqOm+gv0Rm2B7iv5Qs1GUEzKA==
+"@cmsgov/design-system-docs@2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system-docs/-/design-system-docs-2.7.2.tgz#cff63c1958895be7d876e454c226f763c5409de3"
+  integrity sha512-d1rlLPkieF6eJ1WKnlJJsc2e8Dy2UA9aVSRlEYUNUDQdXFGRdMDnXQ2KceMhSe1VeOsp6xgIIlwtu7M4WeUp2g==
   dependencies:
-    "@cmsgov/design-system" "^2.7.1"
+    "@cmsgov/design-system" "^2.7.2"
     classnames "^2.2.5"
     lodash "^4.17.19"
     prismjs "^1.11.0"
@@ -1637,10 +1637,26 @@
     webpack-hot-middleware "2.25.0"
     yargs "^11.0.0"
 
-"@cmsgov/design-system@2.7.1", "@cmsgov/design-system@^2.7.1":
+"@cmsgov/design-system@2.7.1":
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.1.tgz#3808b5be99733c857fcb0fabc6e160d76f969530"
   integrity sha512-cQ6E/IDg14uz5QSiAB/kOzHrDRW8rVK+G10M37zBN4EA20TOO4VosTb7J4pW+5R+9PlCKKow7l2zntmbFWM2wQ==
+  dependencies:
+    "@popperjs/core" "^2.4.4"
+    classnames "^2.2.5"
+    core-js "^3.6.5"
+    downshift "^3.2.10"
+    ev-emitter "^1.1.1"
+    focus-trap-react "^6.0.0"
+    lodash.uniqueid "^4.0.1"
+    prop-types "^15.7.2"
+    react-aria-modal "^2.11.1"
+    react-transition-group "^2.9.0"
+
+"@cmsgov/design-system@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.2.tgz#9aa9a4bad05b50721fc4472bae88a99326dfea87"
+  integrity sha512-Xy1ADo4eR+OnZq1heftcevy7z8zLWL8oE8+00XMVmDu6/R8chb8nJSXjkesCYoRcBZttN3nvNionQGkgGLaYyg==
   dependencies:
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.5"
@@ -9594,17 +9610,7 @@ lodash@^3.10.1:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.6.1, lodash@~4.17.12:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-
-lodash@^4.17.19:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@^4.17.21:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.6.1, lodash@~4.17.12:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
