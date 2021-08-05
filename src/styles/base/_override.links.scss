@@ -1,49 +1,17 @@
-%link-inverse {
-  color: $color-white;
+// Links
+// Default link
+$link-color: $color-primary;
+$link-visited-color: $color-visited;
+$link-hover-color: $color-primary-darker;
+$link-active-color: $color-primary-darkest;
 
-  &:visited {
-    color: $color-white;
-  }
+// Inverse link
+$link-inverse-color: $color-base-inverse;
+$link-inverse-visited-color: $color-muted-inverse;
+$link-inverse-hover-color: $color-muted-inverse;
+$link-inverse-active-color: $color-muted-inverse;
 
-  &:hover,
-  &:active {
-    color: hsla(0, 0%, 100%, 0.77);
-  }
-}
-
-%link,
-%link-darker {
-  color: $color-primary-alt-light;
-
-  &:visited {
-    color: $color-visited;
-  }
-
-  // Override visited with hover
-  &:hover,
-  &:active {
-    color: $color-primary-alt;
-    outline: 0 none;
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-      0 0 0 2px $focus-choice-color;
-    border-color: $focus-choice-color;
-    outline: none;
-  }
-
-  &.mct-link--inverse {
-    @extend %link-inverse;
-  }
-}
-
-a,
-.ds-c-link {
-  @extend %link;
-}
-
-.ds-base--inverse a:not(.ds-c-button),
-.ds-c-link--inverse {
-  @extend %link-inverse;
-}
+// Link underline
+$link-underline-height: 1px;
+$link-underline-height-hover: 3px;
+$link-underline-offset: 0;
