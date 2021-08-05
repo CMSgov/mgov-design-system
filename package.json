@@ -71,7 +71,7 @@
     "husky": "^7.0.0"
   },
   "dependencies": {
-    "@cmsgov/design-system": "2.7.1",
+    "@cmsgov/design-system": "2.7.2",
     "core-js": "^3.6.4",
     "lodash.uniqueid": "^4.0.1"
   },
