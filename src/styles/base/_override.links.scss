@@ -1,21 +1,17 @@
-%link,
-%link-darker {
-  color: $color-primary-alt-light;
+// Links
+// Default link
+$link-color: $color-primary;
+$link-visited-color: $color-visited;
+$link-hover-color: $color-primary-darker;
+$link-active-color: $color-primary-darkest;
 
-  // Override visited with hover
-  &:hover,
-  &:active {
-    color: $color-primary-alt;
-  }
+// Inverse link
+$link-inverse-color: $color-base-inverse;
+$link-inverse-visited-color: $color-muted-inverse;
+$link-inverse-hover-color: $color-muted-inverse;
+$link-inverse-active-color: $color-muted-inverse;
 
-  &.mct-link--inverse {
-    @extend %link-inverse;
-  }
-}
-
-%link-inverse {
-  // override link inverse visited color
-  &:visited {
-    color: $color-white;
-  }
-}
+// Link underline
+$link-underline-height: 1px;
+$link-underline-height-hover: 3px;
+$link-underline-offset: 0;
