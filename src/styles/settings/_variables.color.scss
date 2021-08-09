@@ -1,4 +1,5 @@
-// In no particular order for now
+// Generic
+$color-base: $color-gray-dark;
 
 // Teal/Primary
 $teal-700: #0f4b42;
@@ -95,8 +96,6 @@ $color-error-lightest: $red-100;
 // Visited link color
 $color-visited: #701e3c;
 
-$color-base: $color-gray-dark;
-// Due to missing !default in core, this wont work until core fixes it
 $color-background-inverse: $color-primary;
 
 $card-box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.23);
