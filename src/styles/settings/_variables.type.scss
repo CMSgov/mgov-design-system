@@ -1,12 +1,30 @@
+$font-sans: "Rubik", sans-serif;
 $rubik-font: "Rubik", sans-serif;
 $montserrat-font: "Montserrat", sans-serif;
 
-$font-sans: "Rubik";
+$base-font-size: 16px !default;
+
+$font-size-5xl: 50px !default;
+$font-size-4xl: 36px !default;
+$font-size-3xl: 36px !default;
+$font-size-2xl: 24px !default;
+$font-size-xl: 21px !default;
+$font-size-lg: 18px !default;
+$font-size-md: $base-font-size !default; // 16px
+$font-size-sm: 14px !default;
+
+// Do we need versions of the above for mobile?
+$h1-mobile-font-size: 26px !default;
+
+// This format was different than core so it's been updated - to be removed
+$h1-font-size-mobile: 26px;
+
+// Do we need any of these - we have the variables above?
+// We should keep them until we can phase them out
 
 $display-font-size: 50px;
 $title-font-size: 36px;
 $h1-font-size: 36px;
-$h1-font-size-mobile: 26px;
 $h2-font-size: 24px;
 $h3-font-size: 21px;
 $h4-font-size: 18px;
