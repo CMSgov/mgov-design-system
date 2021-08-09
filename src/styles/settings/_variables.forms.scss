@@ -67,9 +67,9 @@ $button-secondary-border-color--disabled: $color-gray-lighter;
 
 // Tertiary button
 // text color
-$button-tertiary-text-color: $color-primary;
-$button-tertiary-text-color--hover: $color-primary-darker;
-$button-tertiary-text-color--active: $color-primary-darkest;
+$button-tertiary-text-color: $color-secondary;
+$button-tertiary-text-color--hover: $color-secondary-darker;
+$button-tertiary-text-color--active: $color-secondary-darkest;
 $button-tertiary-text-color--disabled: $color-gray-lighter;
 // background color
 $button-tertiary-bg: $color-white;
