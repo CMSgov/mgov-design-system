@@ -7,18 +7,8 @@ updates:
     schedule:
       interval: 'daily'
     labels:
-      - "Design System Update"
-    allow:
-      - dependency-name: "@cmsgov/design-system"
-      - dependency-name: "@cmsgov/design-system-docs"
-      - dependency-name: "@cmsgov/design-system-scripts"
-  - package-ecosystem: 'npm'
-    directory: '/'
-    schedule:
-      interval: 'daily'
-    labels:
       - "Dependencies"
-    ignore:
+    allow:
       - dependency-name: "@cmsgov/design-system"
       - dependency-name: "@cmsgov/design-system-docs"
       - dependency-name: "@cmsgov/design-system-scripts"
