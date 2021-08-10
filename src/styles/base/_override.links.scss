@@ -1,9 +1,9 @@
 // Links
 // Default link
-$link-color: $color-primary;
-$link-visited-color: $color-visited;
-$link-hover-color: $color-primary-darker;
-$link-active-color: $color-primary-darkest;
+$link-color: $color-primary-alt;
+$link-visited-color: $color-primary-alt;
+$link-hover-color: $color-primary-alt-dark;
+$link-active-color: $color-primary-alt-dark;
 
 // Inverse link
 $link-inverse-color: $color-base-inverse;
@@ -13,5 +13,5 @@ $link-inverse-active-color: $color-muted-inverse;
 
 // Link underline
 $link-underline-height: 1px;
-$link-underline-height-hover: 3px;
+$link-underline-height-hover: 1px;
 $link-underline-offset: 0;
