@@ -15,103 +15,103 @@ $button-text-decoration-underline: underline;
 $button-text-decoration-none: none;
 
 // Default button
-// text color
 $button-default-text-color: $color-primary;
-$button-default-text-color--hover: $color-primary-darker;
-$button-default-text-color--active: $color-primary-darkest;
-$button-default-text-color--disabled: $color-gray-lighter;
-// background color
 $button-default-bg: $color-white;
-$button-default-bg--hover: $color-white;
-$button-default-bg--active: $color-white;
-$button-default-bg--disabled: $color-white;
-// border color
 $button-default-border-color: $color-primary;
+// hover
+$button-default-text-color--hover: $color-primary-darker;
+$button-default-bg--hover: $color-white;
 $button-default-border-color--hover: $color-primary;
+// active
+$button-default-text-color--active: $color-primary-darkest;
+$button-default-bg--active: $color-white;
 $button-default-border-color--active: $color-primary-darker;
+// disabled
+$button-default-text-color--disabled: $color-gray-lighter;
+$button-default-bg--disabled: $color-white;
 $button-default-border-color--disabled: $color-gray-lighter;
 
 // Primary button
-// text color
 $button-primary-text-color: $color-white;
-$button-primary-text-color--hover: $color-white;
-$button-primary-text-color--active: $color-white;
-$button-primary-text-color--disabled: $color-gray-dark;
-// background color
 $button-primary-bg: $color-primary;
-$button-primary-bg--hover: $color-primary-darker;
-$button-primary-bg--active: $color-primary-light;
-$button-primary-bg--disabled: $color-gray-lighter;
-// border color
 $button-primary-border-color: transparent;
+// hover
+$button-primary-text-color--hover: $color-white;
+$button-primary-bg--hover: $color-primary-darker;
 $button-primary-border-color--hover: transparent;
+// active
+$button-primary-text-color--active: $color-white;
+$button-primary-bg--active: $color-primary-light;
 $button-primary-border-color--active: transparent;
+// disabled
+$button-primary-text-color--disabled: $color-gray-dark;
+$button-primary-bg--disabled: $color-gray-lighter;
 $button-primary-border-color--disabled: $color-gray-lighter;
 
 // Secondary button
-// text color
 $button-secondary-text-color: $color-white;
-$button-secondary-text-color--hover: $color-white;
-$button-secondary-text-color--active: $color-white;
-$button-secondary-text-color--disabled: $color-gray-lighter;
-// background color
 $button-secondary-bg: $color-secondary;
-$button-secondary-bg--hover: $color-secondary-darker;
-$button-secondary-bg--active: $color-secondary-light;
-$button-secondary-bg--disabled: $color-white;
-// border color
 $button-secondary-border-color: $color-secondary;
+// hover
+$button-secondary-text-color--hover: $color-white;
+$button-secondary-bg--hover: $color-secondary-darker;
 $button-secondary-border-color--hover: $color-secondary-darker;
+// active
+$button-secondary-text-color--active: $color-white;
+$button-secondary-bg--active: $color-secondary-light;
 $button-secondary-border-color--active: $color-secondary-light;
+// disabled
+$button-secondary-text-color--disabled: $color-gray-lighter;
+$button-secondary-bg--disabled: $color-white;
 $button-secondary-border-color--disabled: $color-gray-lighter;
 
 // Tertiary button
-// text color
 $button-tertiary-text-color: $color-secondary;
-$button-tertiary-text-color--hover: $color-secondary-darker;
-$button-tertiary-text-color--active: $color-secondary-darkest;
-$button-tertiary-text-color--disabled: $color-gray-lighter;
-// background color
 $button-tertiary-bg: $color-white;
-$button-tertiary-bg--hover: $color-white;
-$button-tertiary-bg--active: $color-white;
-$button-tertiary-bg--disabled: $color-white;
-// border color
 $button-tertiary-border-color: transparent;
+// hover
+$button-tertiary-text-color--hover: $color-secondary-darker;
+$button-tertiary-bg--hover: $color-white;
 $button-tertiary-border-color--hover: transparent;
+// active
+$button-tertiary-text-color--active: $color-secondary-darkest;
+$button-tertiary-bg--active: $color-white;
 $button-tertiary-border-color--active: transparent;
+// disabled
 $button-tertiary-border-color--disabled: transparent;
+$button-tertiary-bg--disabled: $color-white;
+$button-tertiary-text-color--disabled: $color-gray-lighter;
 
 // Inverse button
-// text color
 $button-inverse-text-color: $color-base;
-$button-inverse-text-color--hover: $color-gray;
-$button-inverse-text-color--active: $color-gray-light;
-$button-inverse-text-color--disabled: $color-base;
-// background color
 $button-inverse-bg: $color-white;
-$button-inverse-bg--hover: $color-white;
-$button-inverse-bg--active: $color-white;
-$button-inverse-bg--disabled: $color-gray-lighter;
-// border color
 $button-inverse-border-color: $color-white;
+// hover
+$button-inverse-text-color--hover: $color-gray;
+$button-inverse-bg--hover: $color-white;
 $button-inverse-border-color--hover: $color-white;
+// active
+$button-inverse-text-color--active: $color-gray-light;
+$button-inverse-bg--active: $color-white;
 $button-inverse-border-color--active: $color-white;
+// disabled
+$button-inverse-text-color--disabled: $color-base;
+$button-inverse-bg--disabled: $color-gray-lighter;
 $button-inverse-border-color--disabled: $color-gray-lighter;
 
 // Transparent button
-// text color
 $button-transparent-text-color: $color-primary;
-$button-transparent-text-color--hover: $color-primary-darker;
-$button-transparent-text-color--active: $color-primary-darkest;
-$button-transparent-text-color--disabled: $color-gray-lighter;
-// background color
 $button-transparent-bg: $color-white;
-$button-transparent-bg--hover: $color-white;
-$button-transparent-bg--active: $color-white;
-$button-transparent-bg--disabled: $color-white;
-// border color
 $button-transparent-border-color: transparent;
+// hover
+$button-transparent-text-color--hover: $color-primary-darker;
+$button-transparent-bg--hover: $color-white;
 $button-transparent-border-color--hover: transparent;
+// active
+$button-transparent-text-color--active: $color-primary-darkest;
+$button-transparent-bg--active: $color-white;
 $button-transparent-border-color--active: transparent;
+// disabled
+$button-transparent-text-color--disabled: $color-gray-lighter;
+$button-transparent-bg--disabled: $color-white;
 $button-transparent-border-color--disabled: transparent;
