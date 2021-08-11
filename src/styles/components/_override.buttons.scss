@@ -43,3 +43,11 @@
   font-family: $montserrat-font;
   font-weight: 600;
 }
+
+.ds-c-button {
+  &.mds-c-button--mobile-full-width {
+    @media screen and (max-width: $width-sm) {
+      width: 100%;
+    }
+  }
+}
