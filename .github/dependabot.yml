@@ -6,9 +6,3 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-    labels:
-      - "Dependencies"
-    allow:
-      - dependency-name: "@cmsgov/design-system"
-      - dependency-name: "@cmsgov/design-system-docs"
-      - dependency-name: "@cmsgov/design-system-scripts"
