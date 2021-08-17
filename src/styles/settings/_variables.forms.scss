@@ -89,15 +89,15 @@ $button-inverse-border-color: $color-white;
 // hover
 $button-inverse-text-color--hover: #fffc;
 $button-inverse-bg--hover: transparent;
-$button-inverse-border-color--hover: $color-white;
+$button-inverse-border-color--hover: #fffc;
 // active
 $button-inverse-text-color--active: #fff9;
 $button-inverse-bg--active: transparent;
-$button-inverse-border-color--active: $color-white;
+$button-inverse-border-color--active: #fff9;
 // disabled
 $button-inverse-text-color--disabled: #fffc;
 $button-inverse-bg--disabled: transparent;
-$button-inverse-border-color--disabled: $color-gray-lighter;
+$button-inverse-border-color--disabled: #fffc;
 
 // Transparent button
 $button-transparent-text-color: $color-secondary;
