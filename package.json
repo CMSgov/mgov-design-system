@@ -40,7 +40,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
     "@babel/preset-typescript": "^7.8.3",
     "@cmsgov/design-system-docs": "2.7.1",
-    "@cmsgov/design-system-scripts": "2.7.1",
+    "@cmsgov/design-system-scripts": "2.7.3",
     "@cmsgov/eslint-config-design-system": "2.0.0",
     "@cmsgov/stylelint-config-design-system": "2.0.0",
     "@testing-library/react": "^9.4.1",
