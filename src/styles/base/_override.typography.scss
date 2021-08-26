@@ -15,8 +15,17 @@
 .ds-text-heading--lg,
 .ds-text-heading--md,
 .ds-text-heading--sm {
+  font-family: Montserrat;
   font-weight: $font-semibold;
-  font-family: "Montserrat";
+  > a {
+    color: $color-primary;
+    $link-underline-offset: 3px;
+    $text-decoration-color: #409e90;
+    &:hover {
+      color: $color-primary-darker;
+      $link-underline-height: 2px;
+    }
+  }
 }
 
 .ds-title,
@@ -30,15 +39,15 @@
   line-height: 32px;
 
   @media screen and (min-width: $width-md) {
-    line-height: 47px;
+    // line-height: 47px;
     font-size: $font-size-3xl;
   }
 }
 
 .ds-h2,
 .ds-text-heading--2xl {
-  margin-top: 36px;
-  margin-bottom: 12px;
+  // margin-top: 36px;
+  // margin-bottom: 12px;
   @media screen and (max-width: $width-md) {
     font-size: 22px;
     line-height: 32px;
@@ -47,8 +56,8 @@
 
 .ds-h3,
 .ds-text-heading--xl {
-  margin-top: 31.5px;
-  margin-bottom: 10.5px;
+  // margin-top: 31.5px;
+  // margin-bottom: 10.5px;
   @media screen and (max-width: $width-md) {
     font-size: 20px;
     line-height: 25px;
@@ -57,8 +66,8 @@
 
 .ds-h4,
 .ds-text-heading--lg {
-  margin-top: 27px;
-  margin-bottom: 9px;
+  // margin-top: 27px;
+  // margin-bottom: 9px;
   @media screen and (max-width: $width-md) {
     font-size: 18px;
     line-height: 23px;
@@ -67,8 +76,8 @@
 
 .ds-h5,
 .ds-text-heading--md {
-  margin-top: 24px;
-  margin-bottom: 8px;
+  // margin-top: 24px;
+  // margin-bottom: 8px;
   @media screen and (max-width: $width-md) {
     font-size: 17px;
     line-height: 21px;
@@ -77,10 +86,11 @@
 
 .ds-h6,
 .ds-text-heading--sm {
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 21px;
-  margin-bottom: 7px;
+  // text-transform: uppercase;
+  // letter-spacing: 0.5px;
+  color: $color-base;
+  // margin-top: 21px;
+  // margin-bottom: 7px;
   @media screen and (max-width: $width-md) {
     font-size: 14px;
     line-height: 18px;
@@ -89,7 +99,7 @@
 
 .ds-text--lead,
 .ds-text-body--lg {
-  font-family: "Rubik";
+  font-family: Rubik;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3em;
@@ -101,9 +111,9 @@
 .ds-text-body--md,
 .mct-p3,
 .ds-text-body--sm {
+  color: $black-500;
   font-family: Rubik;
   font-weight: 400;
-  color: $black-500;
 }
 
 .mct-p1,
@@ -111,7 +121,7 @@
   font-size: $font-size-lg;
   line-height: 27px;
   @media screen and (max-width: $width-md) {
-    font-size: $font-size-lg !important;
+    font-size: $font-size-lg;
     line-height: 27px;
   }
 }
@@ -121,7 +131,7 @@
   font-size: $font-size-md;
   line-height: 24px;
   @media screen and (max-width: $width-md) {
-    font-size: $mct-p2-mobile-font-size !important;
+    font-size: $mct-p2-mobile-font-size;
     line-height: 25px;
   }
 }
@@ -131,7 +141,7 @@
   font-size: $font-size-sm;
   line-height: 18px;
   @media screen and (max-width: $width-md) {
-    font-size: $mct-p3-mobile-font-size !important;
+    font-size: $mct-p3-mobile-font-size;
     line-height: 23px;
   }
 }
