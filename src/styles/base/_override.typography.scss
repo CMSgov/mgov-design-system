@@ -20,10 +20,11 @@
   > a {
     color: $color-primary;
     $link-underline-offset: 3px;
-    $text-decoration-color: #409e90;
+    $text-decoration-color: $teal-300;
     &:hover {
       color: $color-primary-darker;
       $link-underline-height: 2px;
+      $text-decoration-color: $color-primary-darker;
     }
   }
 }
