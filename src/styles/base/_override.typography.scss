@@ -15,85 +15,89 @@
 .ds-text-heading--lg,
 .ds-text-heading--md,
 .ds-text-heading--sm {
+  font-family: Montserrat;
   font-weight: $font-semibold;
-  font-family: "Montserrat";
-}
-
-.ds-title,
-.ds-text-heading--4xl {
-  font-weight: 300;
 }
 
 .ds-h1,
 .ds-text-heading--3xl {
-  font-size: $h1-mobile-font-size;
-  line-height: 32px;
-
+  font-size: $font-size-2xl;
+  line-height: 40px;
+  margin-bottom: 44px;
   @media screen and (min-width: $width-md) {
-    line-height: 47px;
     font-size: $font-size-3xl;
+    line-height: 48px;
+    margin-bottom: 52px;
   }
 }
 
 .ds-h2,
 .ds-text-heading--2xl {
-  margin-top: 36px;
-  margin-bottom: 12px;
+  font-size: $font-size-2xl;
+  line-height: 40px;
+  margin-bottom: 44px;
   @media screen and (max-width: $width-md) {
-    font-size: 22px;
+    font-size: $font-size-xl;
     line-height: 32px;
+    margin-bottom: 32px;
   }
 }
 
 .ds-h3,
 .ds-text-heading--xl {
-  margin-top: 31.5px;
-  margin-bottom: 10.5px;
+  font-size: $font-size-xl;
+  line-height: 32px;
+  margin-bottom: 32px;
   @media screen and (max-width: $width-md) {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: $font-size-lg;
+    line-height: 28px;
+    margin-bottom: 24px;
   }
 }
 
 .ds-h4,
 .ds-text-heading--lg {
-  margin-top: 27px;
-  margin-bottom: 9px;
+  font-size: $font-size-lg;
+  line-height: 28px;
+  margin-bottom: 24px;
   @media screen and (max-width: $width-md) {
-    font-size: 18px;
-    line-height: 23px;
+    font-size: $font-size-lg;
+    line-height: 28px;
+    margin-bottom: 24px;
   }
 }
 
 .ds-h5,
 .ds-text-heading--md {
-  margin-top: 24px;
-  margin-bottom: 8px;
+  font-size: $font-size-md;
+  line-height: 24px;
+  margin-bottom: 16px;
   @media screen and (max-width: $width-md) {
-    font-size: 17px;
-    line-height: 21px;
+    font-size: $font-size-md;
+    line-height: 24px;
+    margin-bottom: 16px;
   }
 }
 
 .ds-h6,
 .ds-text-heading--sm {
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 21px;
-  margin-bottom: 7px;
+  color: $color-base;
+  font-size: $font-size-sm;
+  line-height: 20px;
+  margin-bottom: 8px;
   @media screen and (max-width: $width-md) {
-    font-size: 14px;
-    line-height: 18px;
+    color: $color-base;
+    font-size: $font-size-sm;
+    line-height: 20px;
+    margin-bottom: 8px;
   }
 }
 
-.ds-text--lead,
-.ds-text-body--lg {
-  font-family: "Rubik";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.3em;
-}
+// .ds-text--lead,
+// .ds-text-body--lg {
+//   font-family: Rubik;
+//   font-size: $font-size-lg;
+// }
 
 .mct-p1,
 .ds-text-body--lg,
@@ -101,37 +105,41 @@
 .ds-text-body--md,
 .mct-p3,
 .ds-text-body--sm {
+  color: $black-500;
   font-family: Rubik;
   font-weight: 400;
-  color: $black-500;
+  margin-top: 0;
 }
 
 .mct-p1,
 .ds-text-body--lg {
   font-size: $font-size-lg;
-  line-height: 27px;
-  @media screen and (max-width: $width-md) {
-    font-size: $font-size-lg !important;
-    line-height: 27px;
-  }
+  line-height: 28px;
+  margin-bottom: 12px;
+  // @media screen and (max-width: $width-md) {
+  //   font-size: $font-size-lg;
+  //   line-height: 27px;
+  // }
 }
 
 .mct-p2,
 .ds-text-body--md {
   font-size: $font-size-md;
   line-height: 24px;
-  @media screen and (max-width: $width-md) {
-    font-size: $mct-p2-mobile-font-size !important;
-    line-height: 25px;
-  }
+  margin-bottom: 8px;
+  // @media screen and (max-width: $width-md) {
+  //   font-size: $mct-p2-mobile-font-size;
+  //   line-height: 25px;
+  // }
 }
 
 .mct-p3,
 .ds-text-body--sm {
   font-size: $font-size-sm;
-  line-height: 18px;
-  @media screen and (max-width: $width-md) {
-    font-size: $mct-p3-mobile-font-size !important;
-    line-height: 23px;
-  }
+  line-height: 20px;
+  margin-bottom: 8px;
+  // @media screen and (max-width: $width-md) {
+  //   font-size: $mct-p3-mobile-font-size;
+  //   line-height: 23px;
+  // }
 }

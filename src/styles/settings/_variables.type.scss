@@ -1,17 +1,17 @@
-$font-sans: "Rubik", sans-serif;
-$rubik-font: "Rubik", sans-serif;
-$montserrat-font: "Montserrat", sans-serif;
+$font-sans: 'Rubik', sans-serif;
+$rubik-font: 'Rubik', sans-serif;
+$montserrat-font: 'Montserrat', sans-serif;
 
-$base-font-size: 16px !default;
+$base-font-size: 16px;
 
-$font-size-5xl: 50px !default;
-$font-size-4xl: 36px !default;
-$font-size-3xl: 36px !default;
-$font-size-2xl: 24px !default;
-$font-size-xl: 21px !default;
-$font-size-lg: 18px !default;
-$font-size-md: $base-font-size !default; // 16px
-$font-size-sm: 14px !default;
+$font-size-5xl: 50px;
+$font-size-4xl: 44px;
+$font-size-3xl: 40px;
+$font-size-2xl: 32px;
+$font-size-xl: 24px;
+$font-size-lg: 20px;
+$font-size-md: $base-font-size; // 16px
+$font-size-sm: 14px;
 
 // Do we need versions of the above for mobile?
 $h1-mobile-font-size: 26px !default;
@@ -23,11 +23,11 @@ $h1-font-size-mobile: 26px;
 // We should keep them until we can phase them out
 
 $display-font-size: 50px;
-$title-font-size: 36px;
-$h1-font-size: 36px;
-$h2-font-size: 24px;
-$h3-font-size: 21px;
-$h4-font-size: 18px;
+$title-font-size: 44px;
+$h1-font-size: 40px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
 $h5-font-size: 16px;
 $h6-font-size: 14px;
 
