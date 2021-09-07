@@ -15,7 +15,7 @@
 .ds-text-heading--lg,
 .ds-text-heading--md,
 .ds-text-heading--sm {
-  font-family: Montserrat;
+  font-family: $montserrat-font;
   font-weight: $font-semibold;
   > a {
     color: $color-primary;
@@ -98,7 +98,7 @@
 
 .ds-text--lead,
 .ds-text-body--lg {
-  font-family: Rubik;
+  font-family: $rubik-font;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3em;
@@ -110,8 +110,8 @@
 .ds-text-body--md,
 .mct-p3,
 .ds-text-body--sm {
-  color: $black-500;
-  font-family: Rubik;
+  color: $color-gray-dark;
+  font-family: $rubik-font;
   font-weight: 400;
 }
 
