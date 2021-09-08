@@ -37,9 +37,9 @@
   line-height: 40px;
   margin-bottom: 44px;
   @media screen and (max-width: $width-md) {
-    font-size: $font-size-xl;
-    line-height: 32px;
-    margin-bottom: 32px;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 44px;
   }
 }
 
@@ -49,9 +49,9 @@
   line-height: 32px;
   margin-bottom: 32px;
   @media screen and (max-width: $width-md) {
-    font-size: $font-size-lg;
-    line-height: 28px;
-    margin-bottom: 24px;
+    font-size: $font-size-xl;
+    line-height: 32px;
+    margin-bottom: 32px;
   }
 }
 
@@ -93,12 +93,6 @@
   }
 }
 
-// .ds-text--lead,
-// .ds-text-body--lg {
-//   font-family: Rubik;
-//   font-size: $font-size-lg;
-// }
-
 .mct-p1,
 .ds-text-body--lg,
 .mct-p2,
@@ -116,10 +110,6 @@
   font-size: $font-size-lg;
   line-height: 28px;
   margin-bottom: 12px;
-  // @media screen and (max-width: $width-md) {
-  //   font-size: $font-size-lg;
-  //   line-height: 27px;
-  // }
 }
 
 .mct-p2,
@@ -127,10 +117,6 @@
   font-size: $font-size-md;
   line-height: 24px;
   margin-bottom: 8px;
-  // @media screen and (max-width: $width-md) {
-  //   font-size: $mct-p2-mobile-font-size;
-  //   line-height: 25px;
-  // }
 }
 
 .mct-p3,
@@ -138,8 +124,4 @@
   font-size: $font-size-sm;
   line-height: 20px;
   margin-bottom: 8px;
-  // @media screen and (max-width: $width-md) {
-  //   font-size: $mct-p3-mobile-font-size;
-  //   line-height: 23px;
-  // }
 }
