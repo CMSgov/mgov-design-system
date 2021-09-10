@@ -1,0 +1,40 @@
+/*
+Link
+
+Links connect users to a different page or further information.
+
+The only base HTML element the design system applies styling to is the `<a>` element. To prevent this, you can override the `$ds-include-base-html-rulesets` Sass variable and set it to `false`. You can also use `.ds-c-link` and `.ds-c-link--inverse` for styling links.
+
+Markup: link.example.html
+
+### When to use
+
+- Navigating to a new page or view in your application
+- Navigating to a different web page, e.g. external documentation
+- **Note:** Warn the user if links open a new window or downloads a file (PDF, for example).
+
+### When to consider alternatives
+
+- Opening or closing a modal or dialog
+- Triggering a dropdown menu
+- Submitting data to the server
+
+Your link should always describe where it will take users. Users tend to scan text online, and elements that stand out (like links) grab attention. Clear links can help users navigate more quickly.
+
+For example, instead of:
+> [Learn more](#)
+
+Use:
+> [Learn how to reset your passphrase](#)
+
+Never use a link to say “click here.” A nondescript link forces users to backtrack and read the surrounding text for more context. This is even more problematic for those who rely on screen readers, which can list links for quicker navigation. A list of “click here” isn’t helpful for anyone.
+
+### Accessibility
+
+- Users should be able to tab to navigate between links.
+- Users should be able to activate a link when pressing ‘Enter’ on their keyboard.
+- Users should be able to identify links without relying on color alone.
+- Users should be able to activate hover and focus states with both a mouse and a keyboard.
+
+Style guide: styles.typography.links
+*/
