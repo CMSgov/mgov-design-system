@@ -17,6 +17,20 @@
 .ds-text-heading--sm {
   font-family: $montserrat-font;
   font-weight: $font-semibold;
+  > a {
+    color: $color-primary;
+    text-decoration-color: $teal-300;
+    text-underline-offset: 3px;
+    &:hover {
+      color: $color-primary-darker;
+      text-decoration-color: $color-primary-darker;
+    }
+  }
+}
+
+.ds-title,
+.ds-text-heading--4xl {
+  font-weight: 300;
 }
 
 .ds-h1,
@@ -79,7 +93,7 @@
 .mct-p3,
 .ds-text-body--sm {
   color: $black-500;
-  font-family: Rubik;
+  font-family: $rubik-font;
   font-weight: 400;
   margin-top: 0;
 }
