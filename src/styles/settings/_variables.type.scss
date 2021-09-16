@@ -22,14 +22,14 @@ $h1-font-size-mobile: 26px;
 // Do we need any of these - we have the variables above?
 // We should keep them until we can phase them out
 
-$display-font-size: 50px;
-$title-font-size: 44px;
-$h1-font-size: 40px;
-$h2-font-size: 32px;
-$h3-font-size: 24px;
-$h4-font-size: 20px;
-$h5-font-size: 16px;
-$h6-font-size: 14px;
+$display-font-size: $font-size-5xl;
+$title-font-size: $font-size-4xl;
+$h1-font-size: $font-size-3xl;
+$h2-font-size: $font-size-2xl;
+$h3-font-size: $font-size-xl;
+$h4-font-size: $font-size-lg;
+$h5-font-size: $base-font-size;
+$h6-font-size: $font-size-sm;
 
 $mct-p1-font-size: 18px;
 $mct-p2-font-size: 16px;
