@@ -35,73 +35,55 @@
 
 .ds-h1,
 .ds-text-heading--3xl {
-  font-size: $h1-mobile-font-size;
-  line-height: 32px;
-
+  font-size: $font-size-2xl;
+  line-height: $spacer-5;
+  margin-bottom: 44px;
   @media screen and (min-width: $width-md) {
     font-size: $font-size-3xl;
-    line-height: 47px;
+    line-height: $spacer-6;
+    margin-bottom: 52px;
   }
 }
 
 .ds-h2,
 .ds-text-heading--2xl {
-  margin-bottom: 12px;
-  margin-top: 36px;
+  font-size: $font-size-2xl;
+  line-height: $spacer-5;
+  margin-bottom: 44px;
   @media screen and (max-width: $width-md) {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 28px;
+    line-height: $spacer-5;
+    margin-bottom: 44px;
   }
 }
 
 .ds-h3,
 .ds-text-heading--xl {
-  margin-bottom: 10.5px;
-  margin-top: 31.5px;
-  @media screen and (max-width: $width-md) {
-    font-size: 20px;
-    line-height: 25px;
-  }
+  font-size: $font-size-xl;
+  line-height: $spacer-4;
+  margin-bottom: $spacer-4;
 }
 
 .ds-h4,
 .ds-text-heading--lg {
-  margin-bottom: 9px;
-  margin-top: 27px;
-  @media screen and (max-width: $width-md) {
-    font-size: 18px;
-    line-height: 23px;
-  }
+  font-size: $font-size-lg;
+  line-height: 28px;
+  margin-bottom: $spacer-3;
 }
 
 .ds-h5,
 .ds-text-heading--md {
-  margin-bottom: 8px;
-  margin-top: 24px;
-  @media screen and (max-width: $width-md) {
-    font-size: 17px;
-    line-height: 21px;
-  }
+  font-size: $font-size-md;
+  line-height: $spacer-3;
+  margin-bottom: $spacer-2;
 }
 
 .ds-h6,
 .ds-text-heading--sm {
-  letter-spacing: 0.5px;
-  margin-bottom: 7px;
-  margin-top: 21px;
-  text-transform: uppercase;
-  @media screen and (max-width: $width-md) {
-    font-size: 14px;
-    line-height: 18px;
-  }
-}
-
-.ds-text--lead,
-.ds-text-body--lg {
-  font-family: $rubik-font;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.3em;
+  color: $color-base;
+  font-size: $font-size-sm;
+  line-height: 20px;
+  margin-bottom: $spacer-1;
 }
 
 .mct-p1,
@@ -110,37 +92,29 @@
 .ds-text-body--md,
 .mct-p3,
 .ds-text-body--sm {
-  color: $color-gray-dark;
+  color: $black-500;
   font-family: $rubik-font;
   font-weight: 400;
+  margin-top: 0;
 }
 
 .mct-p1,
 .ds-text-body--lg {
   font-size: $font-size-lg;
-  line-height: 27px;
-  @media screen and (max-width: $width-md) {
-    font-size: $font-size-lg;
-    line-height: 27px;
-  }
+  line-height: 28px;
+  margin-bottom: 12px;
 }
 
 .mct-p2,
 .ds-text-body--md {
   font-size: $font-size-md;
-  line-height: 24px;
-  @media screen and (max-width: $width-md) {
-    font-size: $mct-p2-mobile-font-size;
-    line-height: 25px;
-  }
+  line-height: $spacer-3;
+  margin-bottom: $spacer-1;
 }
 
 .mct-p3,
 .ds-text-body--sm {
   font-size: $font-size-sm;
-  line-height: 18px;
-  @media screen and (max-width: $width-md) {
-    font-size: $mct-p3-mobile-font-size;
-    line-height: 23px;
-  }
+  line-height: 20px;
+  margin-bottom: $spacer-1;
 }
