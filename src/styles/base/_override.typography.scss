@@ -40,7 +40,7 @@
   margin-bottom: 44px;
   @media screen and (min-width: $width-md) {
     font-size: $font-size-3xl;
-    line-height: 48px;
+    line-height: $spacer-6;
     margin-bottom: 52px;
   }
 }
