@@ -45,7 +45,7 @@
 }
 
 .ds-c-button {
-  &.mds-c-button--mobile-full-width {
+  &.mds-c-button--full-width {
     @media screen and (max-width: $width-sm) {
       width: 100%;
     }
