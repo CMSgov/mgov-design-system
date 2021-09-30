@@ -20,8 +20,7 @@
 
   &:focus,
   &.ds-c-button--focus {
-    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-      0 0 0 2px $focus-choice-color;
+    box-shadow: 0 0 0 4px $focus-choice-color-highlight, 0 0 0 2px $focus-choice-color;
     color: $color-primary-alt-dark;
     // hide chrome blue outline
     outline: none;
@@ -30,6 +29,8 @@
   &.ds-c-button--transparent {
     border-color: transparent;
     background-color: transparent;
+    text-decoration-thickness: $link-underline-height;
+    text-underline-offset: $link-underline-offset;
   }
 
   svg {
@@ -219,4 +220,19 @@
 .ds-c-button--big {
   font-family: $montserrat-font;
   font-weight: 600;
+}
+
+// transparent link button
+.ds-c-button--transparent {
+}
+
+// Help drawer button
+.help-drawer-button {
+  background: url('#{$image-path}/InfoOutline.svg') center right no-repeat;
+  padding-right: $spacer-3;
+  padding-left: 0;
+  &:hover {
+    background: url('#{$image-path}/InfoFilled.svg') center right no-repeat;
+    text-decoration-thickness: $link-underline-height-hover;
+  }
 }
