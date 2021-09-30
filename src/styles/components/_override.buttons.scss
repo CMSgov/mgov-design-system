@@ -1,3 +1,4 @@
+/* stylelint-disable */
 // Default (tertiarty) outline button
 .ds-c-button,
 .ds-c-button:visited {
@@ -31,6 +32,24 @@
     background-color: transparent;
     text-decoration-thickness: $link-underline-height;
     text-underline-offset: $link-underline-offset;
+    &:hover,
+    &.ds-c-button--hover {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:active,
+    &.ds-c-button--active {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:focus,
+    &.ds-c-button--focus {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:disabled,
+    &.ds-c-button--disabled {
+      background-color: $color-gray-lighter;
+      border-color: transparent;
+      color: $color-gray-dark;
+    }
   }
 
   svg {
@@ -215,6 +234,7 @@
     }
   }
 }
+/* stylelint-enable */
 
 // Big (landing page) button
 .ds-c-button--big {
@@ -222,15 +242,11 @@
   font-weight: 600;
 }
 
-// transparent link button
-.ds-c-button--transparent {
-}
-
 // Help drawer button
 .help-drawer-button {
   background: url('#{$image-path}/InfoOutline.svg') center right no-repeat;
-  padding-right: $spacer-3;
   padding-left: 0;
+  padding-right: $spacer-3;
   &:hover {
     background: url('#{$image-path}/InfoFilled.svg') center right no-repeat;
     text-decoration-thickness: $link-underline-height-hover;
