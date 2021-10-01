@@ -241,14 +241,3 @@
   font-family: $montserrat-font;
   font-weight: 600;
 }
-
-// Help drawer button
-.help-drawer-button {
-  background: url('#{$image-path}/InfoOutline.svg') center right no-repeat;
-  padding-left: 0;
-  padding-right: $spacer-3;
-  &:hover {
-    background: url('#{$image-path}/InfoFilled.svg') center right no-repeat;
-    text-decoration-thickness: $link-underline-height-hover;
-  }
-}
