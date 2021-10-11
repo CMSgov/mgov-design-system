@@ -1,3 +1,4 @@
+/* stylelint-disable */
 // Default (tertiarty) outline button
 .ds-c-button,
 .ds-c-button:visited {
@@ -20,8 +21,7 @@
 
   &:focus,
   &.ds-c-button--focus {
-    box-shadow: 0 0 0 4px $focus-choice-color-highlight,
-      0 0 0 2px $focus-choice-color;
+    box-shadow: 0 0 0 4px $focus-choice-color-highlight, 0 0 0 2px $focus-choice-color;
     color: $color-primary-alt-dark;
     // hide chrome blue outline
     outline: none;
@@ -30,6 +30,26 @@
   &.ds-c-button--transparent {
     border-color: transparent;
     background-color: transparent;
+    text-decoration-thickness: $link-underline-height;
+    text-underline-offset: $link-underline-offset;
+    &:hover,
+    &.ds-c-button--hover {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:active,
+    &.ds-c-button--active {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:focus,
+    &.ds-c-button--focus {
+      text-decoration-thickness: $link-underline-height-hover;
+    }
+    &:disabled,
+    &.ds-c-button--disabled {
+      background-color: $color-gray-lighter;
+      border-color: transparent;
+      color: $color-gray-dark;
+    }
   }
 
   svg {
@@ -214,6 +234,7 @@
     }
   }
 }
+/* stylelint-enable */
 
 // Big (landing page) button
 .ds-c-button--big {
