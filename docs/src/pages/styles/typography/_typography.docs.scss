@@ -97,27 +97,10 @@ Style guide: styles.typography.links
 */
 
 /*
-Responsive typography
-
-@responsive
-
-The `.ds-type-heading-3xl`, `ds-type-heading-2xl`, and `ds-type-heading-xl` classes are responsive by default.
-To apply responsive typography elsewhere, use the [font size utility class]({{root}}/utilities/font-size/#utilities.font-size.responsive).
-Since the base typography margins and line height is measured in `em` units,
-they'll automatically adjust as you change the font size.
-
-Markup: responsive-typography.example.html
-
-Style guide: styles.typography.responsive
-*/
-
-/*
 Customization
 
 The following Sass variables can be overridden to change the type sizes:
 
-- `$font-size-5xl`
-- `$font-size-4xl`
 - `$font-size-3xl`
 - `$font-size-2xl`
 - `$font-size-xl`
