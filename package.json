@@ -68,7 +68,8 @@
     "react-dom": "^16.6.0",
     "stylelint": "^13.3.2",
     "typescript": "^3.8.3",
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "version-bump-prompt": "^6.1.0"
   },
   "dependencies": {
     "@cmsgov/design-system": "2.7.1",
