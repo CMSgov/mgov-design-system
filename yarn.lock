@@ -1541,26 +1541,10 @@
     webpack-hot-middleware "2.25.0"
     yargs "^11.0.0"
 
-"@cmsgov/design-system@2.7.1":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.1.tgz#3808b5be99733c857fcb0fabc6e160d76f969530"
-  integrity sha512-cQ6E/IDg14uz5QSiAB/kOzHrDRW8rVK+G10M37zBN4EA20TOO4VosTb7J4pW+5R+9PlCKKow7l2zntmbFWM2wQ==
-  dependencies:
-    "@popperjs/core" "^2.4.4"
-    classnames "^2.2.5"
-    core-js "^3.6.5"
-    downshift "^3.2.10"
-    ev-emitter "^1.1.1"
-    focus-trap-react "^6.0.0"
-    lodash.uniqueid "^4.0.1"
-    prop-types "^15.7.2"
-    react-aria-modal "^2.11.1"
-    react-transition-group "^2.9.0"
-
-"@cmsgov/design-system@^2.7.3":
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.7.3.tgz#a2061199ab41a463ae6cc325b71fde06f537befe"
-  integrity sha512-38qhRBkd9pdH2IGzTYQ7zyHmsZQm17uuu7OmvqDtGlZtUshTja3IDVGlOMt8btDWHJXX3x1C0hIelgHIEc5Amw==
+"@cmsgov/design-system@2.9.0", "@cmsgov/design-system@^2.7.3":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@cmsgov/design-system/-/design-system-2.9.0.tgz#ee7eecfc13760a3cb086013c766ee3491671f136"
+  integrity sha512-jsNySFbdPfgi51O6vkueXoNQhBcYZ6vfJ6G8RmM7NY3a+LyPbnGJ7EEM8gOU5giWyl61h+s8E64CGYYY3tl47A==
   dependencies:
     "@popperjs/core" "^2.4.4"
     classnames "^2.2.5"
@@ -4426,15 +4410,10 @@ core-js@^2.4.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
 
-core-js@^3.5.0, core-js@^3.6.5:
+core-js@^3.5.0, core-js@^3.6.4, core-js@^3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
-
-core-js@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
-  integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
