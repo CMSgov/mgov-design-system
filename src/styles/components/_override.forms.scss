@@ -17,12 +17,11 @@
   font-family: $rubik-font;
   font-size: $font-size-md;
   border-radius: 3px;
-  border: 1px solid $black-200;
+  border-color: $black-200;
   padding: $spacer-2;
 
   &--error {
     border-color: $red-500;
-    border-width: 3px;
   }
 }
 
