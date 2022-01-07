@@ -72,7 +72,7 @@
     "version-bump-prompt": "^6.1.0"
   },
   "dependencies": {
-    "@cmsgov/design-system": "2.7.1",
+    "@cmsgov/design-system": "2.13.0",
     "core-js": "^3.6.4",
     "lodash.uniqueid": "^4.0.1"
   },
